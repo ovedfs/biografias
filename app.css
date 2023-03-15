@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Quicksand:wght@300;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f2f2f2;
+  font-family: 'Quicksand', sans-serif;
+  color: #666;
+}
+
+h1, h2 {
+  font-family: 'Boogaloo', cursive;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+p {
+	line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+  text-align: center;
+}
+
+nav {
+  position: sticky;
+  top: 0px;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+  display: flex;
+  justify-content: center;
+}
+
+nav li a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	background-color: #4CAF50;
+}
+
+main {
+	margin: 20px auto;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+article {
+  border: 1px solid #888;
+  display: flex;
+  gap: 1em;
+}
+
+section.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex: 3;
+}
+
+figure {
+  background-color: #4CAF50;
+  padding: 1em;
+  flex: 1;
+}
+
+figcaption {
+  color: white;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+}
