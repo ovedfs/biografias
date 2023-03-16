@@ -73,7 +73,7 @@ nav li a:hover {
 
 main {
 	margin: 20px auto;
-  max-width: 800px;
+  max-width: 860px;
   display: flex;
   flex-direction: column;
   gap: 2em;
@@ -92,6 +92,11 @@ section.info {
   flex: 3;
 }
 
+.info-life {
+  font-family: monospace;
+  color: #aaa;
+}
+
 figure {
   background-color: #4CAF50;
   padding: 1em;
@@ -100,6 +105,7 @@ figure {
 
 figcaption {
   color: white;
+  text-align: center;
 }
 
 footer {
@@ -109,9 +115,28 @@ footer {
 	padding: 10px;
 }
 
-a {
-	line-height: 1.5;
+a.btn-read {
   text-decoration: none;
-  color: green;
+  color: #4CAF50;
   font-weight: bold;
+  border: 1px solid #4CAF50;
+  align-self: flex-end;
+  margin: 0.5em 1em;
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+  transition: 0.5s;
+}
+
+a.btn-read:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+blockquote {
+  border-left: 10px solid #63ed68;
+  font-style: italic;
+  width: 90%;
+  margin: 1em auto;
+  font-size: 0.9em;
+  font-family: monospace;
 }
