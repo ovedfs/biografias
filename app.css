@@ -21,10 +21,6 @@ h1, h2 {
   font-family: 'Boogaloo', cursive;
 }
 
-h1 {
-	font-size: 36px;
-}
-
 h2 {
 	font-size: 24px;
 }
@@ -42,6 +38,20 @@ header {
 	color: #fff;
 	padding: 20px;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
+}
+
+.logo {
+  height: 80px;
+  border-radius: 30px;
+}
+
+h1 {
+	font-size: 36px;
+  letter-spacing: 3px;
 }
 
 nav {
